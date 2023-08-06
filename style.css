@@ -82,9 +82,7 @@ main {
 
   cursor: pointer;
 
-  background-image: var(--switch-bg-url);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: var(--switch-bg-url) no-repeat center;
 
   position: absolute;
   z-index: 1;
