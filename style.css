@@ -186,13 +186,17 @@ footer a {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   :root {
     --bg-url: url(./assets/bg-mobile.jpg);
   }
 
   .light {
     --bg-url: url(./assets/bg-mobile-light.jpg);
+  }
+  .card-links a {
+    width: 300px;
+    margin: 0 auto;
   }
 }
 /* animation */
