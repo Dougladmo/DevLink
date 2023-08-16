@@ -174,13 +174,22 @@ footer a {
   color: var(--text-color);
 }
 /* media queries */
-@media (min-width: 600px) {
+@media (min-width: 1300px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
   }
 }
 /* animation */
