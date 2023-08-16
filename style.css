@@ -82,7 +82,9 @@ main {
 
   cursor: pointer;
 
-  background-image: var(--switch-bg-url) no-repeat center;
+  background-image: var(--switch-bg-url);
+  background-repeat: no-repeat;
+  background-position: center;
 
   position: absolute;
   z-index: 1;
@@ -93,6 +95,7 @@ main {
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
+  transition: 0.2s;
 }
 
 .light #switch button {
